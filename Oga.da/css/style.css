@@ -1,0 +1,71 @@
+@import "reset.css";
+
+
+/* header */
+.header_wrap {
+  top: 0;
+  left: 50%;
+  height: 80px;
+  align-items: center;
+}
+
+.header_wrap .nav {
+  width: 600px;
+  height: 60px;
+  border-radius: 30px;
+  box-shadow: 0 5px 5px rgba(0,0,0,.12);
+}
+.header_wrap .nav ul {
+  padding: 0 36px;
+}
+.header_wrap .nav ul li {
+  line-height: 60px;
+}
+.header_wrap .search {
+  display: flex;
+}
+.header_wrap .search input {
+  border: none;
+  border-bottom: 1px solid #969696;
+  height: 30px;
+  padding-left: 8px;
+  outline: none;
+  background: transparent;
+}
+
+/* section 01 */
+.main {
+  width: 100vw;
+  height: 1269px;
+  background: url(../images/bg.jpg) no-repeat;
+  margin-bottom: 100px;
+}
+.main .text1 {
+  top: 325px;
+  left: 555px;
+}
+.main .text2 {
+  top: 425px;
+  left: 1055px;
+}
+.main .text3 {
+  top: 510px;
+  left: 1205px;
+}
+
+
+/* section 02 */
+.journey { margin-bottom: 100px;}
+.journey .journey-wrap .journey-img {
+  margin:0 20px;
+}
+.journey .journey-wrap .journey-text > span:nth-child(1) {
+  margin-bottom: 20px;
+}
+
+/* section 03 */
+.mall .mall-wrap {
+  width: 1920px;
+  height: 900px;
+  background: url(../images/bg2.jpg) no-repeat;
+}
