@@ -64,8 +64,104 @@
 }
 
 /* section 03 */
+.mall {
+  margin-bottom: 100px;
+}
 .mall .mall-wrap {
   width: 1920px;
   height: 900px;
-  background: url(../images/bg2.jpg) no-repeat;
+  background: url(../images/bg2.jpg) no-repeat 0 100px;
+  margin-bottom: 100px;
+}
+.mall .mall-wrap .online-mall {
+  margin-left: 420px;
+}
+.mall .mall-wrap .online-mall span:nth-child(1) {
+  margin-bottom: 40px;
+}
+.mall .mall-wrap .online-mall .arrow {
+  margin-left: 215px;
+  margin-top: -10px;
+}
+.mall .product .product-wrap {
+  width: 320px;
+}
+.mall .product .product-wrap a div:nth-child(1) {
+  width: 320px;
+  height: 320px;
+  margin-bottom: 15px;
+}
+.mall .product .product01 a div:nth-child(1) {
+  background: url(../images/product1.jpg) no-repeat;
+}
+.mall .product .product02 a div:nth-child(1) {
+  background: url(../images/product2.jpg) no-repeat;
+}
+.mall .product .product03 a div:nth-child(1) {
+  background: url(../images/product3.jpg) no-repeat;
+}
+
+.mall .product .product-wrap a .line {
+  width: 250px;
+  height: 2px;
+  background-color: #484848;
+  margin: 20px auto;
+}
+
+/* footer */
+footer { padding-top:60px; height: 500px; background-color: #4d4d4d;}
+/* footer .sns {margin-top: 60px;} */
+footer .sns {margin-bottom: 60px;}
+footer .sns span, footer .sns div {margin-right: 10px;}
+footer .sns .insta-logo {
+  width: 20px;
+  height: 20px;
+  background: url(../images/insta.png) no-repeat;
+}
+footer .sns .vertical-line {
+  width: 2px;
+  height: 24px;
+  background-color: #fff;
+}
+footer .sns .youtube-logo {
+  width: 20px;
+  height: 20px;
+  background: url(../images/youtube.png) no-repeat;
+}
+footer .contact {margin-left: 20px; margin-bottom: 50px;}
+footer .contact .contact-text {margin-bottom: 20px;}
+footer .contact .contact-wrap .contact-box-left {
+  width: 660px;
+  height: 90px;
+  border: 1px solid #fff;
+  padding: 0 30px;
+  line-height: 90px;
+}
+footer .contact .contact-wrap .contact-box-left .icon-call {
+  margin-top: 37px;
+  margin-right: 20px;
+  width: 17px;
+  height: 17px;
+  background: url(../images/icon_phone.png) no-repeat ;
+}
+footer .contact .contact-wrap .contact-box-left .vertical-line {
+  width: 2px;
+  height: 50px;
+  background-color: #fff;
+  margin-top: 21px;
+}
+footer .contact .contact-wrap .contact-box-right {
+  margin-left: 60px;
+  width: 300px;
+  height: 92px;
+}
+footer .address, footer .copyright {
+  margin:0 0 20px 20px; 
+  line-height: 24px;}
+footer .language ul li a{
+  width: 90px;
+  height: 35px;
+  border: 1px solid #fff;
+  line-height: 35px;
+  margin-left:20px;
 }
